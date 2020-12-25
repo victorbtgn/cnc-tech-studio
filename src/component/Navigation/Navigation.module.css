@@ -1,0 +1,8 @@
+.link {
+  text-decoration: none;
+  padding: 10px;
+  color: #0053ee;
+}
+.activeLink {
+  color: #021e52;
+}
