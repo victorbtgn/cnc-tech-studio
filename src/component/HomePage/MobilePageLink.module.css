@@ -1,0 +1,15 @@
+.MobilePageLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto 20px;
+  background-color: coral;
+}
+.link {
+  width: 100%;
+  padding: 40px 20px;
+  text-decoration: none;
+}

@@ -1,5 +1,14 @@
+import windowSize from '../../helpers/window-size';
+import { HomePageMobile, HomePageDesktop } from '../../component/HomePage';
+
 // import styles from './HomeView.module.css';
 
 export default function HomeView() {
-    return (<h2>Домашняя страница</h2>)
+    const [width, height] = windowSize();
+
+    return (
+        <>
+            {width < 768 ? <HomePageMobile /> : <HomePageDesktop />}
+        </>
+    )
 }

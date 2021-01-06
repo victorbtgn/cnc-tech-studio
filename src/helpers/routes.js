@@ -1,4 +1,7 @@
 export default {
     home: '/',
-    wood: '/wood',
+    energySavingHouse: '/energy-saving-house',
+    foundationOverlap: '/foundation-overlap',
+    partition: '/partition',
+    artWorks: '/art-works',
 };
