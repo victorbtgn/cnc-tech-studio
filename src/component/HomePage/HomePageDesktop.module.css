@@ -1,0 +1,29 @@
+/* .HomePageDesktop {} */
+
+.linkBox {
+  width: 90%;
+  max-width: 1000px;
+  padding: 1.5em 3em;
+  margin: 0 auto 2em;
+  background-color: var(--white);
+}
+.title {
+  margin-bottom: 1em;
+}
+.description {
+  margin-bottom: 1em;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin-left: 80%;
+  border-radius: 0.5em;
+  color: var(--white);
+  background-color: var(--dark-grey);
+  transition: var(--primary-transition);
+}
+.link:hover,
+.link:focus {
+  background-color: var(--primary-bg);
+  transition: var(--primary-transition);
+}

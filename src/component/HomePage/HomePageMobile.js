@@ -4,7 +4,7 @@ import routes from '../../helpers/routes';
 export default function HomePageMobile() {
     return (
         <>
-            <h2>Home Page Mobile</h2>
+            <h2 style={{marginBottom: 50 + 'px', textAlign: 'center'}} >Home Page Mobile</h2>
 
             <MobilePageLink title='3D панели для энергосберегающих домов' route={routes.energySavingHouse} />
 

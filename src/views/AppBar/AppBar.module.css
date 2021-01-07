@@ -1,7 +1,18 @@
 .AppBar {
   text-align: center;
+  margin-bottom: 20px;
+}
+.link {
+  text-decoration: none;
 }
 .Logo {
   font-size: 1.5em;
+  color: var(--white);
   padding: 10px 0;
+  transition: var(--primary-transition);
+}
+.Logo:hover,
+.Logo:focus {
+  color: var(--dark-grey);
+  transition: var(--primary-transition);
 }

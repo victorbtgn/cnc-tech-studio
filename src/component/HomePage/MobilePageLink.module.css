@@ -6,7 +6,7 @@
   width: 90%;
   max-width: 400px;
   margin: 0 auto 20px;
-  background-color: coral;
+  background-color: var(--white);
 }
 .link {
   width: 100%;
